@@ -1,0 +1,166 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font: 400 14px "Oswald";
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  top: 30px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .header-img {
+  background-image: url(../acess/IMAGE.svg);
+  background-size: contain;
+  height: 32px;
+  width: 93px;
+  margin: 0px 0px 0px 120px;
+}
+header ul {
+  font: 400 13px "Oswald";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+header ul li {
+  margin-left: 40px;
+}
+header button {
+  width: 193px;
+  height: 52px;
+  background: #0057FF;
+  border-radius: 30px;
+  margin-left: 350px;
+  font: 400 14px "Oswald";
+  color: #FFFFFF;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  top: 170px;
+  left: 120px;
+}
+main .left-side-image {
+  background-image: url(../acess/IMAGE1.svg);
+  background-size: contain;
+  height: 589px;
+  width: 540px;
+}
+main .right-side-content {
+  position: relative;
+  left: 120px;
+}
+main .right-side-content h1 {
+  font: 400 40px "Oswald";
+  width: 450px;
+  height: 100px;
+}
+main .right-side-content .info {
+  font: 400 15px "Roboto";
+  width: 450px;
+  height: 52px;
+  margin-top: 48px;
+}
+main .right-side-content section {
+  position: relative;
+  top: 58px;
+  left: 61px;
+  width: 350px;
+}
+main .right-side-content section .support {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 70px;
+  width: 350px;
+}
+main .right-side-content section .support p {
+  font: 400 16px "Oswald";
+}
+main .right-side-content section .support .plus {
+  position: relative;
+  background-image: url(../acess/Frame.svg);
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}
+main .right-side-content section .hosting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 70px;
+  width: 350px;
+}
+main .right-side-content section .hosting p {
+  font: 400 16px "Oswald";
+}
+main .right-side-content section .hosting .plus {
+  position: relative;
+  background-image: url(../acess/Frame.svg);
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}
+main .right-side-content section .questions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 70px;
+  width: 350px;
+}
+main .right-side-content section .questions p {
+  font: 400 16px "Oswald";
+}
+main .right-side-content section .questions .plus {
+  position: relative;
+  background-image: url(../acess/Frame.svg);
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}
+main .right-side-content section .policy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 70px;
+  width: 350px;
+}
+main .right-side-content section .policy p {
+  font: 400 16px "Oswald";
+}
+main .right-side-content section .policy .plus {
+  position: relative;
+  background-image: url(../acess/Frame.svg);
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}
